@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "DSWViewController.h"
-#import "CUCViewController.h"
+#import "DSTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -22,8 +21,8 @@
     
     self.window = [[UIWindow alloc]init];
     
-    DSWViewController *myVC = [[DSWViewController alloc]initWithNibName:nil bundle:nil];
-    self.window.rootViewController = myVC;
+    DSTabBarController *tabBarController = [[DSTabBarController alloc]init];
+    self.window.rootViewController = tabBarController;
     
     [self.window makeKeyAndVisible];
     
