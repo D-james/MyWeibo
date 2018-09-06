@@ -43,6 +43,12 @@ $$E=mc^2$$
 @requires_authorization
 class SomeClass:
     pass
+abc = "      Hello Python world      "
+bcd = '      Hello Python world      '#字符串单引号双引号都行
+print(abc.rstrip())#右边
+print(abc.lstrip())#左边
+print(abc.strip())#两边
+print(abc)
 
 if __name__ == '__main__':
     # A comment
